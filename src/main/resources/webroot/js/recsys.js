@@ -110,7 +110,7 @@ function addRelatedMovies(pageId, containerId, movieId, baseUrl){
 
     var rowDiv = '<div class="frontpage-section-top"> \
                 <div class="explore-header frontpage-section-header">\
-                 Related Movies \
+                 相关推荐 \
                 </div>\
                 <div class="movie-row">\
                  <div class="movie-row-bounds">\
@@ -133,7 +133,7 @@ function addUserHistory(pageId, containerId, userId, baseUrl){
 
     var rowDiv = '<div class="frontpage-section-top"> \
                 <div class="explore-header frontpage-section-header">\
-                 User Watched Movies \
+                 看过的电影 \
                 </div>\
                 <div class="movie-row">\
                  <div class="movie-row-bounds">\
@@ -158,7 +158,7 @@ function addRecForYou(pageId, containerId, userId, model, baseUrl){
 
     var rowDiv = '<div class="frontpage-section-top"> \
                 <div class="explore-header frontpage-section-header">\
-                 Recommended For You \
+                 猜你喜欢 \
                 </div>\
                 <div class="movie-row">\
                  <div class="movie-row-bounds">\
@@ -209,33 +209,33 @@ function addMovieDetails(containerId, movieId, baseUrl) {
                                             <div class="row movie-highlights">\
                                                 <div class="col-md-2">\
                                                     <div class="heading-and-data">\
-                                                        <div class="movie-details-heading">Release Year</div>\
+                                                        <div class="movie-details-heading">上映年份</div>\
                                                         <div> '+movieObject.releaseYear+' </div>\
                                                     </div>\
                                                     <div class="heading-and-data">\
-                                                        <div class="movie-details-heading">Links</div>\
+                                                        <div class="movie-details-heading">链接</div>\
                                                         <a target="_blank" href="http://www.imdb.com/title/tt'+movieObject.imdbId+'">imdb</a>,\
                                                         <span><a target="_blank" href="http://www.themoviedb.org/movie/'+movieObject.tmdbId+'">tmdb</a></span>\
                                                     </div>\
                                                 </div>\
                                                 <div class="col-md-3">\
                                                     <div class="heading-and-data">\
-                                                        <div class="movie-details-heading"> MovieLens predicts for you</div>\
+                                                        <div class="movie-details-heading">预计您的评分</div>\
                                                         <div> 5.0 stars</div>\
                                                     </div>\
                                                     <div class="heading-and-data">\
-                                                        <div class="movie-details-heading"> Average of '+movieObject.ratingNumber+' ratings</div>\
+                                                        <div class="movie-details-heading"> '+movieObject.ratingNumber+' 人平均评分</div>\
                                                         <div> '+movieObject.averageRating.toPrecision(2)+' stars\
                                                         </div>\
                                                     </div>\
                                                 </div>\
                                                 <div class="col-md-6">\
                                                     <div class="heading-and-data">\
-                                                        <div class="movie-details-heading">Genres</div>\
+                                                        <div class="movie-details-heading">分类</div>\
                                                         '+genres+'\
                                                     </div>\
                                                     <div class="heading-and-data">\
-                                                        <div class="movie-details-heading">Who likes the movie most</div>\
+                                                        <div class="movie-details-heading">谁还喜欢这部电影</div>\
                                                         '+ratingUsers+'\
                                                     </div>\
                                                 </div>\

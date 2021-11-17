@@ -26,6 +26,6 @@ hs_err_pid*
 .DS_store
 data
 target/
-SparrowRecSys.iml
+MovieRecommend.iml
 TFRecModel.iml
 RecPySpark.iml
