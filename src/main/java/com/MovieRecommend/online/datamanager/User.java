@@ -1,8 +1,8 @@
-package com.sparrowrecsys.online.datamanager;
+package com.MovieRecommend.online.datamanager;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.sparrowrecsys.online.model.Embedding;
+import com.MovieRecommend.online.model.Embedding;
 
 import java.util.ArrayList;
 import java.util.List;

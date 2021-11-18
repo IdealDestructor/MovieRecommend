@@ -1,4 +1,4 @@
-package com.sparrowrecsys.offline.spark.embedding
+package com.MovieRecommend.offline.spark.embedding
 
 import java.io.{BufferedWriter, File, FileWriter}
 

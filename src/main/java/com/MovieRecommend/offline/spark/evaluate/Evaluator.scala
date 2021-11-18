@@ -1,4 +1,4 @@
-package com.sparrowrecsys.offline.spark.evaluate
+package com.MovieRecommend.offline.spark.evaluate
 
 import org.apache.spark.ml.linalg.DenseVector
 import org.apache.spark.mllib.evaluation.BinaryClassificationMetrics

@@ -1,10 +1,10 @@
-package com.sparrowrecsys.online.service;
+package com.MovieRecommend.online.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sparrowrecsys.online.recprocess.RecForYouProcess;
-import com.sparrowrecsys.online.util.ABTest;
-import com.sparrowrecsys.online.datamanager.Movie;
-import com.sparrowrecsys.online.util.Config;
+import com.MovieRecommend.online.recprocess.RecForYouProcess;
+import com.MovieRecommend.online.util.ABTest;
+import com.MovieRecommend.online.datamanager.Movie;
+import com.MovieRecommend.online.util.Config;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

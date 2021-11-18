@@ -1,4 +1,4 @@
-package com.sparrowrecsys.offline.spark.featureeng
+package com.MovieRecommend.offline.spark.featureeng
 
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkConf

@@ -1,4 +1,4 @@
-package com.sparrowrecsys.online.datamanager;
+package com.MovieRecommend.online.datamanager;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.JsonSerializer;

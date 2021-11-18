@@ -1,7 +1,7 @@
-package com.sparrowrecsys.online.recprocess;
+package com.MovieRecommend.online.recprocess;
 
-import com.sparrowrecsys.online.datamanager.DataManager;
-import com.sparrowrecsys.online.datamanager.Movie;
+import com.MovieRecommend.online.datamanager.DataManager;
+import com.MovieRecommend.online.datamanager.Movie;
 import java.util.*;
 
 /**

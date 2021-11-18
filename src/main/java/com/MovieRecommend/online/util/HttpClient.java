@@ -1,4 +1,4 @@
-package com.sparrowrecsys.online.util;
+package com.MovieRecommend.online.util;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;

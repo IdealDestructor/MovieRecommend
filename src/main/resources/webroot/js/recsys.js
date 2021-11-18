@@ -257,29 +257,29 @@ function addUserDetails(containerId, userId, baseUrl) {
                                             <div class="row movie-highlights">\
                                                 <div class="col-md-2">\
                                                     <div class="heading-and-data">\
-                                                        <div class="movie-details-heading">#Watched Movies</div>\
+                                                        <div class="movie-details-heading">看过的电影数</div>\
                                                         <div> '+userObject.ratingCount+' </div>\
                                                     </div>\
                                                     <div class="heading-and-data">\
-                                                        <div class="movie-details-heading"> Average Rating Score</div>\
+                                                        <div class="movie-details-heading">平均评分</div>\
                                                         <div> '+userObject.averageRating.toPrecision(2)+' stars\
                                                         </div>\
                                                     </div>\
                                                 </div>\
                                                 <div class="col-md-3">\
                                                     <div class="heading-and-data">\
-                                                        <div class="movie-details-heading"> Highest Rating Score</div>\
+                                                        <div class="movie-details-heading">最高评分</div>\
                                                         <div> '+userObject.highestRating+' stars</div>\
                                                     </div>\
                                                     <div class="heading-and-data">\
-                                                        <div class="movie-details-heading"> Lowest Rating Score</div>\
+                                                        <div class="movie-details-heading">最低评分</div>\
                                                         <div> '+userObject.lowestRating+' stars\
                                                         </div>\
                                                     </div>\
                                                 </div>\
                                                 <div class="col-md-6">\
                                                     <div class="heading-and-data">\
-                                                        <div class="movie-details-heading">Favourite Genres</div>\
+                                                        <div class="movie-details-heading">最爱类型</div>\
                                                         '+'action'+'\
                                                     </div>\
                                                 </div>\

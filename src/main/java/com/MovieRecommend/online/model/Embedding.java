@@ -1,4 +1,4 @@
-package com.sparrowrecsys.online.model;
+package com.MovieRecommend.online.model;
 
 import java.util.ArrayList;
 

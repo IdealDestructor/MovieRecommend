@@ -1,7 +1,7 @@
-package com.sparrowrecsys.online;
+package com.MovieRecommend.online;
 
-import com.sparrowrecsys.online.datamanager.DataManager;
-import com.sparrowrecsys.online.service.*;
+import com.MovieRecommend.online.datamanager.DataManager;
+import com.MovieRecommend.online.service.*;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.DefaultServlet;
 import org.eclipse.jetty.servlet.ServletContextHandler;

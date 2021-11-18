@@ -11108,7 +11108,7 @@ button.close {
 .input-group .twitter-typeahead:last-child .tt-hint, .input-group .twitter-typeahead:last-child .tt-input {
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
-    width: 100%
+    width: 100%;
 }
 
 .input-group.input-group-sm .twitter-typeahead .tt-hint, .input-group.input-group-sm .twitter-typeahead .tt-input {
@@ -11262,7 +11262,7 @@ html {
 
 #root {
     font-family: Roboto, Helvetica, Helvetica Neue, sans-serif;
-    color: #404d5b
+    color: white
 }
 
 #root h1, #root h2, #root h3, #root h4, #root h5, #root h6 {

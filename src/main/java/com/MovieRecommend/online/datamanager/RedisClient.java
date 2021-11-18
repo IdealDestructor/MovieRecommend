@@ -1,4 +1,4 @@
-package com.sparrowrecsys.online.datamanager;
+package com.MovieRecommend.online.datamanager;
 
 import redis.clients.jedis.Jedis;
 

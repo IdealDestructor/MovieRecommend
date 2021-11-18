@@ -1,17 +1,17 @@
-package com.sparrowrecsys.online.recprocess;
+package com.MovieRecommend.online.recprocess;
 
-import com.sparrowrecsys.online.datamanager.DataManager;
-import com.sparrowrecsys.online.datamanager.User;
-import com.sparrowrecsys.online.datamanager.Movie;
-import com.sparrowrecsys.online.datamanager.RedisClient;
-import com.sparrowrecsys.online.util.Config;
-import com.sparrowrecsys.online.util.Utility;
+import com.MovieRecommend.online.datamanager.DataManager;
+import com.MovieRecommend.online.datamanager.User;
+import com.MovieRecommend.online.datamanager.Movie;
+import com.MovieRecommend.online.datamanager.RedisClient;
+import com.MovieRecommend.online.util.Config;
+import com.MovieRecommend.online.util.Utility;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.util.*;
 
-import static com.sparrowrecsys.online.util.HttpClient.asyncSinglePostRequest;
+import static com.MovieRecommend.online.util.HttpClient.asyncSinglePostRequest;
 
 /**
  * Recommendation process of similar movies

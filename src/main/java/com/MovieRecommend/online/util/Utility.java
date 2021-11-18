@@ -1,6 +1,6 @@
-package com.sparrowrecsys.online.util;
+package com.MovieRecommend.online.util;
 
-import com.sparrowrecsys.online.model.Embedding;
+import com.MovieRecommend.online.model.Embedding;
 
 public class Utility {
     public static Embedding parseEmbStr(String embStr){

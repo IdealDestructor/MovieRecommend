@@ -1,4 +1,4 @@
-package com.sparrowrecsys.online.util;
+package com.MovieRecommend.online.util;
 
 public class ABTest {
     final static int trafficSplitNumber = 5;

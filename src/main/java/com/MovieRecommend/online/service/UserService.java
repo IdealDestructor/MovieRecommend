@@ -1,7 +1,7 @@
-package com.sparrowrecsys.online.service;
+package com.MovieRecommend.online.service;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sparrowrecsys.online.datamanager.DataManager;
-import com.sparrowrecsys.online.datamanager.User;
+import com.MovieRecommend.online.datamanager.DataManager;
+import com.MovieRecommend.online.datamanager.User;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
