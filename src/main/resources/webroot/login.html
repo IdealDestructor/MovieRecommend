@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>登录｜电影推荐</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="css/loginstyle.css" rel="stylesheet" type="text/css" media="all"/>
+    <!-- for-mobile-apps -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="Classy Login form Responsive, Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"/>
+    <!-- //for-mobile-apps -->
+</head>
+<body>
+<!--header start here-->
+<div class="header">
+    <div class="header-main">
+        <h1>电影推荐</h1>
+        <div class="header-bottom">
+            <div class="header-right w3agile">
+                <div class="header-left-bottom agileinfo">
+                    <form action="#" method="post">
+                        <input type="text" value="用户名" name="name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'User name';}"/>
+                        <input type="password" value="密码" name="password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'password';}"/>
+                        <div class="remember">
+                                <span class="checkbox1">
+                                    <label class="checkbox">
+                                        <input type="checkbox" name="" checked="">
+                                        <i></i>
+                                        记住我
+                                    </label>
+                                </span>
+                            <div class="forgot">
+                                <h6>
+                                    <a href="#">忘记密码?</a>
+                                </h6>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <br/>
+                        <input type="submit" value="登录" >
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--header end here-->
+<div class="copyright">
+    <p>
+
+    </p>
+</div>
+<!--footer end here-->
+</body>
+</html>
+<script>
+    $("form").submit(function(e){
+        window.location.href="http://localhost:6010/index.html";
+        return false;
+    });
+</script>
+

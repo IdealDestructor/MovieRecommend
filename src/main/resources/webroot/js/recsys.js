@@ -220,7 +220,7 @@ function addMovieDetails(containerId, movieId, baseUrl) {
                                                 </div>\
                                                 <div class="col-md-3">\
                                                     <div class="heading-and-data">\
-                                                        <div class="movie-details-heading">预计您的评分</div>\
+                                                        <div class="movie-details-heading">最高评分</div>\
                                                         <div> 5.0 stars</div>\
                                                     </div>\
                                                     <div class="heading-and-data">\
